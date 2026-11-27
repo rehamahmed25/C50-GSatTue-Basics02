@@ -20,6 +20,15 @@
             object objt = book;
             Console.WriteLine(objt);
             #endregion
+
+            #region Question 2
+            //Q02.  Using the Book class above, print the result of calling ToString(), Equals() (compare book with
+            //itself), GetHashCode(), and GetType() on book.
+            Console.WriteLine(objt.ToString());
+            Console.WriteLine(objt.Equals("    "));
+            Console.WriteLine(objt.GetHashCode());
+            Console.WriteLine(objt.GetType());
+            #endregion
         }
     }
 }
