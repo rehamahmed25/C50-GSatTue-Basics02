@@ -35,10 +35,31 @@
             // int pages = "464";
             //solution:
             //compile_time error
-            string pages = Console.ReadLine();
-            bool b = int.TryParse(pages, out int x);
-            Console.WriteLine(b);
-            Console.WriteLine(x);
+            //string pages = Console.ReadLine();
+            //bool b = int.TryParse(pages, out int x);
+            //Console.WriteLine(b);
+            //Console.WriteLine(x);
+
+            #endregion
+
+            #region Question 4
+            //            Q04.Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot divide by
+            //zero", and then prints "Done" in a finally block.
+
+            try
+            {
+                int x = 10, y = 0;
+                int d = x / y;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Cannot divide by zero");
+
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
 
             #endregion
         }
