@@ -70,6 +70,14 @@
             //double pagesdouble = pages;
             //Console.WriteLine(pagesdouble);
             #endregion
+
+
+            #region Question 6
+            // Q06.  Declare a double price = 49.99; then convert it into an int using a cast.
+            //double price = 49.99;
+            //Console.WriteLine((int)price);
+
+            #endregion
         }
     }
 }
